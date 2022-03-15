@@ -20,7 +20,7 @@ The admin area allows you to assess the likelihood of a fake (fake) email and th
 
 На следующей стадии экспертная система выполняет контент-анализ содержимого электронного письма, выявляя намерения отправителя на предмет характерных для BEC-писем факторов — срочности, важности и требований выполнить финансовые действия. Результаты анализа передаются в систему машинного обучения.
 
-Если в письме не выявлено ничего подозрительного, в дело вступает система анализа стиля текста — Writing Style DNA («ДНК стиля письма»). Эта разработка Trend Micro использует систему машинного обучения, чтобы сравнить послание руководителя или контрагента с его предыдущими сообщениями. Writing Style DNA использует более 7 тысяч характеристик сообщения для выявления уникального стиля отправителя. В их числе использование заглавных букв в словах и знаков препинания, длина предложений, излюбленные слова и выражения и многое другое.
+Если в письме не выявлено ничего подозрительного, в дело вступает система анализа стиля текста — Writing Style DNA («ДНК стиля письма»). Эта разработка  использует систему машинного обучения, чтобы сравнить послание руководителя или контрагента с его предыдущими сообщениями. Writing Style DNA использует более 7 тысяч характеристик сообщения для выявления уникального стиля отправителя. В их числе использование заглавных букв в словах и знаков препинания, длина предложений, излюбленные слова и выражения и многое другое.
 
 Для создания модели стиля искусственному интеллекту требуется проанализировать от 300 до 500 ранее отправленных писем. Важный момент: для защиты конфиденциальности ИИ извлекает только метаданные, характеризующие стиль отправителя, но не сам текст.
 
@@ -38,7 +38,7 @@ We use an AI tool called BEC Protector. It simulates the decision-making process
 
 At the next stage, the expert system performs a content analysis of the email content, identifying the intentions of the sender on the factors characteristic to BEC emails - urgency, importance and requirements to perform financial actions. The results of the analysis are sent to the machine learning system.
 
-If nothing suspicious is detected, the Writing Style DNA is used. This Trend Micro development uses machine learning to compare an executive's or counterparty's message to previous messages. Writing Style DNA uses over 7,000 message characteristics to identify the sender's unique style. These include the use of capitalization in words and punctuation marks, sentence length, favorite words and expressions, and more.
+If nothing suspicious is detected, the Writing Style DNA is used. This project uses machine learning to compare an executive's or counterparty's message to previous messages. Writing Style DNA uses over 7,000 message characteristics to identify the sender's unique style. These include the use of capitalization in words and punctuation marks, sentence length, favorite words and expressions, and more.
 
 Artificial Intelligence needs to analyze between 300 and 500 previously sent emails to build a style model. To protect confidentiality, the AI only extracts metadata describing the sender's style, but not the text itself.
 
